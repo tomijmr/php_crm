@@ -1,0 +1,112 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    padding: 20px;
+    color: #333;
+}
+
+/* Títulos */
+h1, h2, h3, h4 {
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+/* Formularios */
+form {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+button {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #ecf0f1;
+}
+
+tr:hover {
+    background-color: #f0f9ff;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Mensajes */
+p {
+    margin-top: 10px;
+}
+
+.success {
+    background-color: #dff0d8;
+    color: #3c763d;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
