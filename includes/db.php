@@ -1,7 +1,7 @@
 <?php
 $host = "localhost";
-$db = "crm_db";
-$user = "c2611613_gescred";
+$db = "c2611613_crm_db";
+$user = "c2611613";
 $pass = "SI42dakize";
 
 $conn = new mysqli($host, $user, $pass, $db);
