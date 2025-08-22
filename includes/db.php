@@ -1,8 +1,8 @@
 <?php
 $host = "localhost";
 $db = "crm_db";
-$user = "root";
-$pass = "";
+$user = "c2611613_gescred";
+$pass = "SI42dakize";
 
 $conn = new mysqli($host, $user, $pass, $db);
 if ($conn->connect_error) {
